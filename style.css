@@ -102,7 +102,7 @@ ul {
   content: "";
   position: absolute;
   width: 100%;
-  top: 44px;
+  top: 45px;
   height: 4px;
   border-radius: 2px;
   background: var(--ocean);
@@ -298,7 +298,6 @@ ul {
   transition-timing-function: var(--trans-function);
 }
 .portfolio-background {
-  padding-top: 96px;
   padding-bottom: 120px;
 }
 .container {
@@ -377,6 +376,7 @@ ul {
 .table-activities {
   gap: 8px;
   background: white;
+  padding-left: 16px;
   padding-bottom: 32px;
   padding-top: 32px;
   border: 1px solid var(--cornflower);
@@ -399,7 +399,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 96px;
+  margin-top: 100px;
 }
 .buttonlist-setup li {
   margin-right: 24px;
@@ -543,9 +543,10 @@ ul {
   right: 24px;
   width: 24px;
   height: 24px;
-  background-color: #fff;
+  background-color: var(--cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  cursor: pointer;
 }
 .close-btn2 {
   margin: 5px 0px 0px 0px;

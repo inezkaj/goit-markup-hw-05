@@ -241,6 +241,14 @@ ul {
   letter-spacing: 0.32px;
   text-align: left;
 }
+.listofpicture-setup {
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  flex-basis: calc((100% - 360px) / 3);
+}
+
 .listofpicture-setup li:hover,
 .listofpicture-setup li:focus {
   border: 1px solid var(--cloud);
@@ -383,13 +391,6 @@ ul {
   border-top: none;
 }
 
-.listofpicture-setup {
-  margin-top: 72px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
-  flex-basis: auto;
-}
 .table-activities {
   padding-left: 16px;
   padding-right: 16px;

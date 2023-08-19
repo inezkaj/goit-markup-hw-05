@@ -245,13 +245,12 @@ ul {
   margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
-  gap: 23px;
-  flex-basis: calc((100% - 360px) / 3);
+  gap: 24px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .listofpicture-setup li:hover,
 .listofpicture-setup li:focus {
-  border: 1px solid var(--cloud);
   background: var(--white, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
